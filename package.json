@@ -9,6 +9,7 @@
   "scripts": {
     "build": "npm run build --workspaces",
     "dev": "npm run dev --workspaces",
-    "install": "npm install"
+    "install": "npm install",
+    "start": "node packages/backend/index.js"
   }
 }
