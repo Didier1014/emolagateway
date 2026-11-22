@@ -1,0 +1,14 @@
+{
+  "name": "emola-gateway",
+  "private": true,
+  "workspaces": [
+    "packages/frontend",
+    "packages/backend",
+    "packages/shared"
+  ],
+  "scripts": {
+    "build": "turbo build",
+    "dev": "turbo dev",
+    "install": "turbo install"
+  }
+}
